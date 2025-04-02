@@ -1,3 +1,6 @@
+-- Use system clipboard for default yanking/pasting operations:
+vim.opt.clipboard = "unnamedplus"
+
 -- Set default tabulation size to 4 and prefer spaces for stability:
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
