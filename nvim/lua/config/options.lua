@@ -1,3 +1,6 @@
+-- Display file path inside window title bar (or Windows Terminal tab)
+vim.opt.title = true
+
 -- Use system clipboard for default yanking/pasting operations:
 vim.opt.clipboard = "unnamedplus"
 
