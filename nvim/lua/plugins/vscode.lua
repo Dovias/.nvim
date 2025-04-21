@@ -4,9 +4,7 @@ return {
         italic_comments = true,
         underline_links = true
     },
-    config = function(_, opts)
-        require('vscode').setup(opts);
-
+    init = function()
         vim.cmd.colorscheme('vscode')
     end
 }

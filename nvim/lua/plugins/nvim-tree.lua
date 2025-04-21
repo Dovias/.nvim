@@ -5,9 +5,12 @@ return {
     dependencies = {
         'nvim-tree/nvim-web-devicons',
     },
-    opts = function()
+    opts = {},
+    init = function()
         -- Disable netrw
         vim.g.loaded_netrw = 1
         vim.g.loaded_netrwPlugin = 1
+
+        vim.keymap.set('', '<leader><tab>', ':NvimTreeToggle<CR>')
     end
 }
